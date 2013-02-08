@@ -35,34 +35,19 @@
    <object id="ActorNode1" class="com.horstmann.violet.ActorNode"> 
     <void property="name"> 
      <void property="text"> 
-      <string>Request DB</string> 
+      <string>Driver DB</string> 
      </void> 
     </void> 
    </object> 
    <object class="java.awt.geom.Point2D$Double"> 
     <void method="setLocation"> 
-     <double>637.0</double> 
-     <double>153.0</double> 
+     <double>643.0</double> 
+     <double>230.0</double> 
     </void> 
    </object> 
   </void> 
   <void method="addNode"> 
    <object id="ActorNode2" class="com.horstmann.violet.ActorNode"> 
-    <void property="name"> 
-     <void property="text"> 
-      <string>Driver Roster DB</string> 
-     </void> 
-    </void> 
-   </object> 
-   <object class="java.awt.geom.Point2D$Double"> 
-    <void method="setLocation"> 
-     <double>647.0</double> 
-     <double>297.0</double> 
-    </void> 
-   </object> 
-  </void> 
-  <void method="addNode"> 
-   <object id="ActorNode3" class="com.horstmann.violet.ActorNode"> 
     <void property="name"> 
      <void property="text"> 
       <string>Bus DB</string> 
@@ -71,8 +56,8 @@
    </object> 
    <object class="java.awt.geom.Point2D$Double"> 
     <void method="setLocation"> 
-     <double>643.0</double> 
-     <double>440.0</double> 
+     <double>655.0</double> 
+     <double>399.0</double> 
     </void> 
    </object> 
   </void> 
@@ -116,17 +101,12 @@ Sundays / public holidays</string>
   <void method="connect"> 
    <object class="com.horstmann.violet.UseCaseRelationshipEdge"/> 
    <object idref="UseCaseNode0"/> 
-   <object idref="ActorNode2"/> 
-  </void> 
-  <void method="connect"> 
-   <object class="com.horstmann.violet.UseCaseRelationshipEdge"/> 
-   <object idref="UseCaseNode0"/> 
    <object idref="ActorNode1"/> 
   </void> 
   <void method="connect"> 
    <object class="com.horstmann.violet.UseCaseRelationshipEdge"/> 
    <object idref="UseCaseNode0"/> 
-   <object idref="ActorNode3"/> 
+   <object idref="ActorNode2"/> 
   </void> 
  </object> 
 </java> 
